@@ -10,6 +10,7 @@ public class JenkinsTest {
 public void launch() {
 	WebDriver driver= new ChromeDriver();
 	Reporter.log("Jenkins Test Class Executed", true);
+	Reporter.log("On Poll SCM Executed", true);
 	
 }
 }
